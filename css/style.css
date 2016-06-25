@@ -1,0 +1,72 @@
+body{
+  color: #222222;
+  font-size: 1em;
+  font-family: "open Sans", "Helvetica Neue", sans-serif;
+}
+h2{
+  color:#F29B1C;
+}
+.masthead{
+  padding: 6em 0;
+  background-image: url(https://images.unsplash.com/photo-1429311671710-f5878de59e9f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=80b5dd2f16b4d63c828a0d631e19db12);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+}
+.masthead-intro{
+  text-align: center;
+  maring-bottom: 0.1em;
+  font-family: "gentium Book basic",Georgia, serif;
+  Color:#FFC759;
+  font-size: 2em;
+  font-family: "gentium Book Basic", Georgia, serif;
+}
+.masthead-heading{
+  text-align: center;
+  margin-top: -0.2em;
+  font-family:"open sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  Letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #F29B1C
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    font-family: "gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.social > li {
+    display: inline-block;
+}
+
+.content-footer > p {
+    color: white;
+}
+footer{
+  background-color:#FFC759;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5em;
+	padding: 4em 0;
+}
+strong{
+  color:blue;
+}
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer{
+      font-size: 3em;
+    }
+}
